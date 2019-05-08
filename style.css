@@ -69,7 +69,7 @@ body{
     max-height: 600px;
     min-width: 100px;
     min-height: 200px;
-    border: 2px solid red;
+    border: 2px solid rgba(134, 50, 50, 0.541);
     border-radius: 5px;
     background-image: url('grafitti.png');
     background-size: cover;
@@ -128,7 +128,7 @@ body{
 
 .paragraf1 {
     color: white;
-    border: 3px solid red;
+    border: 3px solid rgba(134, 50, 50, 0.541);
     float: left;
     height: auto;
     width: 24%;
@@ -148,7 +148,7 @@ body{
     font-size: 22px;
     height: 4%;
     width: 300px;
-    border: 3px solid blue;
+    border: 3px solid rgba(134, 50, 50, 0.541);
     margin: 10px 3px 0 3px;
     position: relative;
     left: 38%;
@@ -165,7 +165,7 @@ body{
     justify-content: center;
     align-content: space-around;
     margin: 15px;
-    border: 2px solid red;
+    border: 2px solid rgba(134, 50, 50, 0.541);
     box-sizing: border-box;
     width: 33%;
     height:auto;
@@ -181,9 +181,3 @@ body{
     clear: both;
 }
 
-.article {
-    display: flex;
-    border: 3px solid red;
-    position: absolute;
-    top: 85vh;
-}
