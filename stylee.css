@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    border: 3px solid red;
+    background-color: black;
+    color: white;
+    
+}
+
+ul li a {
+    color: white;
+}
+
+ul li a:hover {
+    color: rgba(255, 255, 255, 0.692);
+    transition: 300ms;
+
+}   
