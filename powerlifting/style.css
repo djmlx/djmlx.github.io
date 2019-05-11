@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Graduate');
+
+
+
+body {
+    margin: 0;
+    font-family: 'Graduate', sans-serif;
+}
+
+main {
+    font-family: sans-serif;
+}
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('powerlifting.jpeg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0,5em;
+    color: white;
+}
+
+.hero h2 {
+    color: white;
+}
+.hero .btn {
+    display: block;
+    width: 200px;
+    padding: 15px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 12px;
+    transition: 600ms;
+    font-weight: 300;
+    background-color: rgba(0, 0, 0, 0.116);
+}
+
+.hero .btn:hover {
+    width:230px;
+    border-radius:16px;
+    border-color: rgba(255, 255, 255, 0.733);
+
+    background-color: rgba(0, 0, 0, 0.295);
+}
